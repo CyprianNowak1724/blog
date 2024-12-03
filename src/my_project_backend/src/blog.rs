@@ -1,8 +1,9 @@
 use candid::CandidType;
 use ic_cdk::api::time;
-#[derive (Clone, CandidType)]
+
+#[derive(Clone, CandidType)]
 pub struct Blog {
-    title: String, 
+    title: String,
     date: u64,
     content: String,
     tags: Vec<String>
