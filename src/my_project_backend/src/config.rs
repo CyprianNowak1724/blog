@@ -9,13 +9,12 @@ pub struct Config {
 }
 
 impl Config {
-    pub fn new() -> Self{
+    pub fn new() -> Self {
         Self {
             max_tags_count: 3,
             max_content_len: 2000,
             max_title_len: 250,
             tags: Vec::new()
         }
-        
     }
 }
